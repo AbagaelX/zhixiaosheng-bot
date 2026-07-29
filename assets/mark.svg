@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">职校生问个明白标志</title>
+  <desc id="desc">由对话框、书页和实训符号组成的抽象图形</desc>
+  <rect width="160" height="160" fill="#0e6b63"/>
+  <path d="M31 36h98v66H78l-24 23v-23H31z" fill="#fff"/>
+  <path d="M50 57h60v8H50zm0 18h42v8H50z" fill="#d79b24"/>
+  <circle cx="113" cy="82" r="16" fill="#b9463d"/>
+  <path d="M106 82h14M113 75v14" stroke="#fff" stroke-width="6" stroke-linecap="square"/>
+</svg>
