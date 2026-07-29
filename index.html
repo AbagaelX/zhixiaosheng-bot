@@ -28,7 +28,7 @@
       <div class="hero-copy">
         <p class="eyebrow">微博投稿社区项目</p>
         <h1 id="page-title">职校生问个明白</h1>
-        <p class="lead">面向中职、高职及职业教育贯通培养学生的投稿整理与发布辅助工具。投稿经过隐私脱敏和内容初筛后，由账号运营者人工确认发布。</p>
+        <p class="lead">面向中职、高职及职业教育贯通培养相关投稿的审核与发布辅助工具。系统只发布投稿原文；普通低风险内容通过规则闸门后进入队列，高风险或不确定内容交由账号运营者复核。</p>
         <div class="topic-list" aria-label="服务范围">
           <span>中职</span>
           <span>高职</span>
@@ -48,8 +48,8 @@
     </section>
 
     <div class="review-notice" role="note">
-      <strong>人工审核承诺</strong>
-      <span>AI仅用于分类、风险提示和隐私脱敏，所有公开发布操作均由运营者确认。</span>
+      <strong>原文发布承诺</strong>
+      <span>AI仅用于分类和风险提示，不得改写投稿、回复私信或直接调用发布工具；没有处理告知记录以及含隐私或高风险的内容不会发送给外部模型，也不会自动放行。</span>
     </div>
 
     <section class="content-section" id="about" aria-labelledby="about-title">
@@ -65,13 +65,13 @@
         </article>
         <article>
           <p class="feature-index">02</p>
-          <h3>隐私脱敏</h3>
-          <p>发布前检查姓名、学校班级、联系方式、账号标识及其他可能识别个人的信息。</p>
+          <h3>隐私检查</h3>
+          <p>发布前检查姓名、学校班级、联系方式、账号标识及其他可能识别个人的信息；系统不会代替投稿者改写或脱敏。</p>
         </article>
         <article>
           <p class="feature-index">03</p>
-          <h3>人工确认</h3>
-          <p>AI不直接控制账号发博。争议、举报、安全事件及未成年人高风险内容交由人工复核。</p>
+          <h3>风险分流</h3>
+          <p>AI不直接控制账号发博。争议、举报、安全事件、不确定内容及未成年人高风险内容交由人工复核。</p>
         </article>
       </div>
     </section>
@@ -83,9 +83,9 @@
       </div>
       <ol class="process-list">
         <li><strong>主动投稿</strong><span>通过问卷星或微博私信提交内容。</span></li>
-        <li><strong>内容初筛</strong><span>进行分类、重复检查、风险提示和必要脱敏。</span></li>
-        <li><strong>人工复核</strong><span>运营者检查事实表述、隐私和发布必要性。</span></li>
-        <li><strong>确认发布</strong><span>通过审核的内容由运营者排期发布。</span></li>
+        <li><strong>内容初筛</strong><span>进行分类、重复检查、隐私识别和风险提示，不修改原文。</span></li>
+        <li><strong>确定性分流</strong><span>低风险原文进入队列；高风险、不确定或附件投稿转人工复核。</span></li>
+        <li><strong>受限发布</strong><span>只有具备真实投稿来源且通过全部闸门的原文才能发布。</span></li>
       </ol>
     </section>
 
@@ -98,13 +98,23 @@
       <div class="channel-grid">
         <article class="channel">
           <h3>问卷星</h3>
-          <p>适合较长投稿和补充上下文。请勿填写与投稿无关的真实身份信息。</p>
+          <p>适合较长投稿和补充上下文。提交前请阅读隐私政策和问卷内处理告知，请勿填写本人或他人的真实身份信息。</p>
           <a href="https://v.wjx.cn/vm/QZHc0Cf.aspx" rel="noopener noreferrer">打开投稿问卷</a>
         </article>
         <article class="channel">
           <h3>微博私信</h3>
-          <p>在微博搜索并私信 <strong>@职校生问个明白</strong>。每天不定时清稿，请勿重复轰炸。</p>
-          <span class="text-link">@职校生问个明白</span>
+          <p>阅读账号公开的投稿规则和隐私政策后，在微博私信 <strong>@职校生问个明白</strong>，发送 <strong>#投稿</strong> 后接“【分类】＋投稿内容”。未带触发词的私信不进入投稿流程，系统不会自动回复。</p>
+          <div class="weibo-component" aria-label="职校生问个明白微博官方关注组件">
+            <iframe
+              src="https://widget.weibo.com/relationship/followbutton.php?btn=red&amp;style=1&amp;uid=9032148703&amp;width=63&amp;height=24&amp;language=zh_cn"
+              title="关注职校生问个明白"
+              width="63"
+              height="24"
+              scrolling="no"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+            <a href="https://weibo.com/u/9032148703" rel="noopener noreferrer">账号主页</a>
+          </div>
         </article>
       </div>
     </section>
