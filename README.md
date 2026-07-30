@@ -18,6 +18,12 @@
 网站地址：
 
 ```text
+https://zxsqa.top/
+```
+
+域名备案和正式 HTTPS 尚未完成时，临时公开入口仍为：
+
+```text
 https://abagaelx.github.io/zhixiaosheng-bot/
 ```
 
@@ -45,6 +51,20 @@ git push -u origin main
 5. 分支选择 `main`，目录选择 `/ (root)`，保存。
 6. 等待页面生成后，访问 `https://abagaelx.github.io/zhixiaosheng-bot/`。
 7. 使用未登录浏览器检查主页、隐私政策和问卷链接，再将网址提交给微博。
+
+GitHub Pages 只用于整改期间公开展示。微博应用重新提交前，必须先完成 `zxsqa.top` 的 ICP 备案和正式 HTTPS 部署，再把应用地址填写为 `https://zxsqa.top/`。
+
+## 正式站点归档
+
+正式站点只包含 `index.html`、`privacy.html`、`styles.css` 和 `assets/`。备案通过后，从完全干净且已经推送的 `main` 提交生成归档，不直接上传本地工作区：
+
+```powershell
+git status --short
+git archive --format=tar --output=zxsqa-site.tar HEAD index.html privacy.html styles.css assets
+Get-FileHash -Algorithm SHA256 .\zxsqa-site.tar
+```
+
+记录提交哈希与归档 SHA-256 后再上传服务器。生产 Nginx 配置位于私有后端仓库的 `deploy/nginx/zxsqa-site.conf`；网站目录为 `/var/www/zxsqa.top`，只能由 root 更新，不能包含 `.git`、秘密文件、运营台或后端源码。
 
 ## 本地预览
 
