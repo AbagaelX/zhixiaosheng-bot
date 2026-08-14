@@ -21,10 +21,10 @@
 https://zxsqa.top/
 ```
 
-域名 `zxsqa.top` 已取得备案号 `沪ICP备2026039588号`，根域和 `bot` 子域均已指向正式服务器。HTTPS 部署完成前，临时公开入口仍为：
+域名 `zxsqa.top` 已取得备案号 `沪ICP备2026039588号`，根域和 `bot` 子域均已指向正式服务器并启用受信任的 HTTPS。正式公开入口为：
 
 ```text
-https://abagaelx.github.io/zhixiaosheng-bot/
+https://zxsqa.top/
 ```
 
 应用简介：
@@ -52,7 +52,7 @@ git push -u origin main
 6. 等待页面生成后，访问 `https://abagaelx.github.io/zhixiaosheng-bot/`。
 7. 使用未登录浏览器检查主页、隐私政策和问卷链接，再将网址提交给微博。
 
-GitHub Pages 只用于整改期间公开展示。微博应用重新提交前，必须完成 `zxsqa.top` 的正式 HTTPS 部署，再把应用地址填写为 `https://zxsqa.top/`。
+GitHub Pages 只作为公开站点的静态备份。微博应用地址填写为 `https://zxsqa.top/`，隐私政策地址填写为 `https://zxsqa.top/privacy.html`。
 
 ## 正式站点归档
 
