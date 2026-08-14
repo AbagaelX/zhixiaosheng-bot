@@ -358,7 +358,9 @@ footer p {
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  justify-content: flex-end;
 }
 
 .policy-main {
@@ -533,6 +535,11 @@ footer p {
     align-items: flex-start;
     flex-direction: column;
     padding: 32px 0;
+  }
+
+  .footer-links {
+    gap: 12px 20px;
+    justify-content: flex-start;
   }
 }
 

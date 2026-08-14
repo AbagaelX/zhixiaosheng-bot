@@ -21,7 +21,7 @@
 https://zxsqa.top/
 ```
 
-域名备案和正式 HTTPS 尚未完成时，临时公开入口仍为：
+域名 `zxsqa.top` 已取得备案号 `沪ICP备2026039588号`，根域和 `bot` 子域均已指向正式服务器。HTTPS 部署完成前，临时公开入口仍为：
 
 ```text
 https://abagaelx.github.io/zhixiaosheng-bot/
@@ -52,11 +52,11 @@ git push -u origin main
 6. 等待页面生成后，访问 `https://abagaelx.github.io/zhixiaosheng-bot/`。
 7. 使用未登录浏览器检查主页、隐私政策和问卷链接，再将网址提交给微博。
 
-GitHub Pages 只用于整改期间公开展示。微博应用重新提交前，必须先完成 `zxsqa.top` 的 ICP 备案和正式 HTTPS 部署，再把应用地址填写为 `https://zxsqa.top/`。
+GitHub Pages 只用于整改期间公开展示。微博应用重新提交前，必须完成 `zxsqa.top` 的正式 HTTPS 部署，再把应用地址填写为 `https://zxsqa.top/`。
 
 ## 正式站点归档
 
-正式站点只包含 `index.html`、`privacy.html`、`styles.css` 和 `assets/`。备案通过后，从完全干净且已经推送的 `main` 提交生成归档，不直接上传本地工作区：
+正式站点只包含 `index.html`、`privacy.html`、`styles.css` 和 `assets/`。从完全干净且已经推送的 `main` 提交生成归档，不直接上传本地工作区：
 
 ```powershell
 git status --short
